@@ -54,7 +54,7 @@ fprintf(fid,'parameter Ncol    = %d ;\n', Nx);
 fclose(fid);
 
 %%
-display('Please, start RTL model');
+display('Please, start write_prj.tcl');
 prompt = 'Press Enter when RTL modeling is done \n';
 x = input(prompt);
 
